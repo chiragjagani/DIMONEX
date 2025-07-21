@@ -138,8 +138,8 @@ public class AppConfig {
         mailSender.setHost("smtp.gmail.com"); // SMTP server (e.g., smtp.gmail.com)
         mailSender.setPort(587); // SMTP port (587 for Gmail)
 
-        mailSender.setUsername("parthranipa12@gmail.com"); // Your email
-        mailSender.setPassword("zswrxxcphocphabi"); // Your email password or App password
+        mailSender.setUsername(""); // Your email
+        mailSender.setPassword(""); // Your email password or App password
 
         Properties props = mailSender.getJavaMailProperties();
         props.put("mail.transport.protocol", "smtp");
